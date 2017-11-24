@@ -1,6 +1,11 @@
 # Compiled files
+.terraform
 *.tfstate
 *.tfstate.backup
+
+# Secrets Files
+*.tfvars
+secrets.tf
 
 # =========================
 # Operating System Files
